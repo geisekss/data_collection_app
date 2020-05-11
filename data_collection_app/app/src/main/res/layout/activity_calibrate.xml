@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Start"
+        android:id="@+id/buttonStartCalibration"
+        android:onClick="collectTargetName"
+        android:layout_below="@+id/buttonShowGuidelines"
+        android:layout_alignStart="@+id/buttonFinishCalibration" />
+
+    <!--<ProgressBar-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/progressBarCalibration"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:visibility="invisible"-->
+        <!--android:indeterminate="false"-->
+        <!--android:max="100"-->
+        <!--android:layout_below="@+id/textCalibrationStatus"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textCalibrationStatus"
+        android:textSize="18dp"
+        android:padding="15dp"
+        android:layout_below="@+id/buttonStartCalibration"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Stop"
+        android:id="@+id/buttonFinishCalibration"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:onClick="finishCalibration"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="See guidelines"
+        android:id="@+id/buttonShowGuidelines"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="showGuidelines"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

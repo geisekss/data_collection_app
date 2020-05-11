@@ -1,0 +1,14 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/encodings.xml
+.DS_Store
+/build
+/captures
+app/src/main/libs/*
+app/src/main/obj/local/armeabi-v7a/*
+*.so
+*.o
+*.o.d
+*.iml

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SmartID</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dialog_target_name_title">Enter your name</string>
+    <string name="dialog_target_name_button">Ok</string>
+
+    <string name="dialog_guidelines_title">Guidelines</string>
+    <string name="dialog_guidelines_message">In order to perform the correctly training process for gait authentication, please follow the instructions below:\n\n
+        -	When you start the process, please do not perform any other activity other than walking;\n
+        -	Ensure the surface is plain and there is no front steps;\n
+        -	Walk as naturally as possible, keeping the same rhythm;\n
+        -	Do not hold the device in your hands, rather keep it as close as possible to your body;\n
+        -	The process ends whenever you hear a sound signal and you see a screen message.\n\n
+        It takes 5minutes.</string>
+    <string name="dialog_guidelines_button">Dismiss</string>
+</resources>
